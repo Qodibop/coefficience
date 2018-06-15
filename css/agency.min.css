@@ -182,8 +182,8 @@ header.masthead .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 36rem;
-    padding-bottom: 1rem;
+    padding-top: 37rem;
+    padding-bottom: 2rem;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
@@ -284,6 +284,7 @@ header.masthead .intro-text .intro-heading {
 #portfolio * {
   z-index: 2;
 }
+
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
