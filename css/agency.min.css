@@ -28,6 +28,26 @@ h6 {
   font-weight: 700;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 1.9rem;
+  }
+  h2.section-heading.text-uppercase {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-size: 0.9rem;
+  }
+  h5 {
+    font-size: 0.7rem;
+  }
+}
+
 section {
   padding: 100px 0;
 }
@@ -87,7 +107,7 @@ img::-moz-selection {
   background: 0 0;
 }
 #mainNav {
-  background-color: #212529;
+  background-color: rgb(25, 48, 79);
 }
 #mainNav .navbar-toggler {
   font-size: 12px;
@@ -143,7 +163,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: rgb(25, 48, 79);
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -277,7 +297,7 @@ header.masthead .intro-text .intro-heading {
 }
 #portfolio .portfolio-item .portfolio-caption p {
   font-size: 16px;
-  font-style: italic;
+  /* font-style: italic; */
   margin: 0;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -551,6 +571,10 @@ section#contact .section-heading {
 section#contact .form-group {
   margin-bottom: 25px;
 }
+section#contact .dark-background {
+  background-color: rgba(0, 0, 0, 0.11);
+}
+
 section#contact .form-group input,
 section#contact .form-group textarea {
   padding: 20px;
