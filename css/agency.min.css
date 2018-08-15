@@ -319,6 +319,17 @@ header.masthead .intro-text .intro-heading {
   z-index: 2;
 }
 
+.btn_interventions {
+  border-radius: 5rem;
+  border-color: rgb(25, 48, 79);
+  color: rgb(25, 48, 79);
+}
+
+.btn_interventions:hover {
+  background-color: rgb(25, 48, 79);
+  color: white;
+}
+
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
